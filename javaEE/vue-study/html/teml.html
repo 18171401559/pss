@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../lib/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <mycon1></mycon1>
+</div>
+
+<template id="temp">
+    <div>
+        <input type="button" value="+1" @click="add">
+        <h4>{{msg}}</h4>
+    </div>
+</template>
+<script>
+
+    //var obj = {msg: 0};
+    Vue.component('mycon1', {
+        template: '#temp',
+        data: function () {
+            return {
+                msg: 0
+            }
+        },
+        methods: {
+            add: function () {
+                this.msg++;
+            }
+        }
+    })
+
+    var vm = new Vue({
+        el: '#app',
+        data:{},
+        methods:{},
+
+    })
+
+</script>
+</body>
+</html>

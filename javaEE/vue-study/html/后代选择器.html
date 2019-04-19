@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div p { /*选择div下面所有的p*/
+            color: #ac2925;
+        }
+/*空格选中所有的后代，>只选中亲儿子/下一代*/
+        div > p {
+            color: springgreen;
+        }
+    </style>
+</head>
+<body>
+<div>王者荣耀</div>
+<div>英雄联盟</div>
+<div>dota</div>
+<div>绝地求生</div>
+<div>
+    <p>王思聪</p>
+    <div>王健林</div>
+    <div><h6>王思聪</h6>
+        <h5>王思聪</h5></div>
+</div>
+
+
+<div>王健林</div>
+</body>
+</html>

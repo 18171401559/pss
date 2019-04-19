@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:40:04 +0800] "GET / HTTP/1.1" 404 987 http-bio-9101-exec-1 70
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:40:04 +0800] "GET /favicon.ico HTTP/1.1" 404 1001 http-bio-9101-exec-3 3
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:40:47 +0800] "GET /jsp/items/itemsList.jsp HTTP/1.1" 200 716 http-bio-9101-exec-4 620
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:40:47 +0800] "GET /js/jquery-1.4.4.min.js HTTP/1.1" 404 1025 http-bio-9101-exec-6 3
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:56:20 +0800] "GET / HTTP/1.1" 200 129 http-bio-9101-exec-1 456
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:56:22 +0800] "GET /items/findAll HTTP/1.1" 200 983 http-bio-9101-exec-3 347
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:56:22 +0800] "GET /js/jquery-1.4.4.min.js HTTP/1.1" 200 78601 http-bio-9101-exec-4 14
+0:0:0:0:0:0:0:1 - - [18/Sep/2018:23:56:25 +0800] "GET /items/editItems.action?id=1 HTTP/1.1" 404 1009 http-bio-9101-exec-5 8

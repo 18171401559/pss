@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<table border="1px"  align="center" cellpadding="5px">
+			<tr>
+				<td>分类名称</td>
+				<td><input type="text" name="catName" id="catName" value="手机数码" /></td>
+			</tr>
+			
+			<tr>
+				<td>分类描述</td>
+				<td><textarea name="catDesc" rows="5" cols="40"></textarea></td>
+			</tr>
+			
+			<tr>
+				<td>分类商品</td>
+				<td>
+					
+					<div style="float: left;">
+						<div>已有商品</div>
+						<select multiple="multiple" style="height: 150px;width: 100px;" id="leftSelect">
+							<option value="华为META2">华为META2</option>
+							<option value="小米2S">小米2S</option>
+							<option value="IPHONE5S">IPHONE5S</option>
+							<option value="三星S4">三星S4</option>
+						</select>
+						<br />
+						<input type="button"  value="&gt;&gt;" id="toRight" />
+						<br />
+						<input type="button"  value="&gt;&gt;&gt;" id="toRightAll" />
+					</div>
+					
+					<div style="float: right">
+						<div>未有商品</div>
+						<select multiple="multiple" style="height: 150px;width: 100px;" id="rightSelect">
+							<option value="锤子T2">锤子T2</option>
+							<option value="红米Note">红米Note</option>
+							<option value="OppleR5">OppleR5</option>
+							<option value="Vivo">Vivo</option>
+						</select>
+						<br />
+						<input type="button"  value="&lt;&lt;" id="toLeft"/>
+						<br />
+						<input type="button"  value="&lt;&lt;&lt;" id="toLeftAll" />
+					</div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2"><input type="button" value="确定" /></td>
+			</tr>
+		</table>
+	</body>
+</html>

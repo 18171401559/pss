@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day_01_mybatis" />
+        <module name="dev-test" />
+        <module name="dubbox_demo" />
+        <module name="dubbox_web" />
+        <module name="myJdbcTemplate" />
+        <module name="spring_dome" />
+        <module name="spring_dome02" />
+        <module name="springmvc_dome" />
+        <module name="springmvc_fileserver" />
+        <module name="ssm" />
+        <module name="ssm_test" />
+        <module name="web_day25_district" />
+        <module name="web_test2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="9">
+      <module name="day_01_mybatis" target="1.5" />
+      <module name="dubbox_demo" target="1.8" />
+      <module name="dubbox_web" target="1.8" />
+      <module name="myJdbcTemplate" target="1.5" />
+      <module name="spring_dome" target="1.8" />
+      <module name="spring_dome02" target="1.8" />
+      <module name="springmvc_dome" target="1.8" />
+      <module name="springmvc_fileserver" target="1.5" />
+      <module name="ssm" target="1.8" />
+      <module name="ssm_test" target="1.8" />
+      <module name="web_day25_district" target="1.8" />
+      <module name="web_test2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

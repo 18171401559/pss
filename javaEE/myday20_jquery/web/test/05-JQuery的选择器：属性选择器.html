@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script  src="../js/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+
+		<script>
+			$(function () {
+                    // <input type="button" id="but1" value="选择有id属性的div"/>
+				$("#but1").click(function () {
+					$("div[id]").css("backgroundColor","pink");
+                });
+                    // <input type="button" id="but2" value="选择有title属性为aaa的div元素"/>
+				$("#but2").click(function () {
+					$("div[title='aaa']").css("backgroundColor","pink");
+                });
+            });
+		</script>
+
+	</head>
+	<body>
+		<input type="button" id="but1" value="选择有id属性的div"/>
+		<input type="button" id="but2" value="选择有title属性为aaa的div元素"/>
+		<hr/>
+		
+		<div id="one">
+			<div class="mini">
+				1111
+			</div>
+		</div>
+		<div id="two">
+			<div class="mini" title="aaa">
+				222
+			</div>
+			<div class="mini">
+				333
+			</div>
+		</div>
+		<div id="three">
+			<div class="mini" >
+				444
+			</div>
+			<div class="mini"  title="aaa">
+				555
+			</div>
+			<div class="mini">
+				666
+			</div>
+		</div>
+		<div >
+			<div class="mini">
+				777
+			</div>
+			<div class="mini">
+				888
+			</div>
+			<div class="mini">
+				999
+			</div>
+			<div class="mini">
+				000
+			</div>
+		</div>
+		<span id="five">
+			<div class="mini">
+				1010
+			</div>
+			
+		</span>
+	</body>
+</html>

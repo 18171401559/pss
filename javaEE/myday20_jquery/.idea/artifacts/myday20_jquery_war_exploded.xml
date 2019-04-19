@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="myday20_jquery:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/myday20_jquery_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="myday20_jquery/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="myday20_jquery" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

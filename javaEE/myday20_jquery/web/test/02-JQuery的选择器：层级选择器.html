@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<script>
+
+			$(function () {
+                // <input type="button" id="but1" value="选择body下的所有的div元素"/>
+				$("#but1").click(function () {
+					$("body div").css("backgroundColor","pink");
+                });
+                // <input type="button" id="but2" value="选择body下的所有的div子元素"/>
+                $("#but2").click(function () {
+                    $("body > div").css("backgroundColor","pink");
+                });
+                // <input type="button" id="but3" value="选择ID为three元素后的下一个div元素"/>
+                $("#but3").click(function () {
+                    $("#three + div").css("backgroundColor","pink");
+                });
+                // <input type="button" id="but4" value="选择ID为two的后面的兄弟元素"/>
+                $("#but4").click(function () {
+                    $("#two ~ div").css("backgroundColor","pink");
+                });
+            });
+
+		</script>
+	</head>
+	<body>
+		<input type="button" id="but1" value="选择body下的所有的div元素"/>
+		<input type="button" id="but2" value="选择body下的所有的div子元素"/>
+		<input type="button" id="but3" value="选择ID为three元素后的下一个div元素"/>
+		<input type="button" id="but4" value="选择ID为two的后面的兄弟元素"/>
+		<hr/>
+		
+		<div id="one">
+			<div class="mini">
+				1111
+			</div>
+		</div>
+		<div id="two">
+			<div class="mini">
+				222
+			</div>
+			<div class="mini">
+				333
+			</div>
+		</div>
+		<div id="three">
+			<div class="mini">
+				444
+			</div>
+			<div class="mini">
+				555
+			</div>
+			<div class="mini">
+				666
+			</div>
+		</div>
+		<div id="four">
+			<div class="mini">
+				777
+			</div>
+			<div class="mini">
+				888
+			</div>
+			<div class="mini">
+				999
+			</div>
+			<div class="mini">
+				000
+			</div>
+		</div>
+		<span id="five">
+			<div class="mini">
+				1010
+			</div>
+			
+		</span>
+	</body>
+</html>

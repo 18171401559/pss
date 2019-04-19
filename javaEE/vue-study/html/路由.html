@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../lib/vue.min.js"></script>
+    <script type="text/javascript" src="../lib/vue-router-3.0.1.js"></script>
+</head>
+<body>
+<div id="app">
+    <a href="#/login">登陆</a>
+    <a href="#/regist">注册</a>
+    <router-view></router-view>
+</div>
+<script>
+    //注册两个组件
+    var login = {
+        template: '<h1>登陆组件</h1>'
+    }
+    var regist = {
+        template: '<h1>注册组件</h1>'
+    }
+
+    //创建一个路由对象
+    var routerObj = new VueRouter({
+        routes: [//路由匹配规则数组
+            //每一个对象是一个匹配规则，path是路径，component是访问路径对应显示的组件
+            {path: '/login', component: login},
+            {path: '/regist', component: regist}
+        ]
+    })
+
+    var vm = new Vue({
+        el: '#app',
+        data: {},
+        methods: {},
+        router: routerObj
+    })
+
+</script>
+</body>
+</html>

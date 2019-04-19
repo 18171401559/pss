@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script  src="../js/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+
+		<script>
+			$(function () {
+                    // <input type="button" id="but1" value="所有的input元素"/>
+                $("#but1").click(function () {
+					$("from:input").css("backgroundColor","pink");
+                });
+                    // <input type="button" id="but2" value="选择文本框"/>
+				$("#but2").click(function () {
+					$("input[type='text']").css("backgroundColor","pink");
+					//$("input[type='text']").css("backgroundColor","pink");
+                });
+
+            });
+
+		</script>
+
+	</head>
+	<body>
+		<input type="button" id="but1" value="所有的input元素"/>
+		<input type="button" id="but2" value="选择文本框"/>
+		<hr/>
+		
+		<form>
+		    <input type="button" value="Input Button"/>
+		    <input type="checkbox" />
+		
+		    <input type="file" />
+		    <input type="hidden" />
+		    <input type="image" />
+		
+		    <input type="password" />
+		    <input type="radio" />
+		    <input type="reset" />
+		
+		    <input type="submit" />
+		    <input type="text" />
+		    <select><option>Option</option></select>
+		
+		    <textarea></textarea>
+		    <button>Button</button>
+		
+		</form>
+	</body>
+</html>

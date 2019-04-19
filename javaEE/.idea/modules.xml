@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExamProductList/ExamProductList.iml" filepath="$PROJECT_DIR$/ExamProductList/ExamProductList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoginDemo/LoginDemo.iml" filepath="$PROJECT_DIR$/LoginDemo/LoginDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cross-domain/cross-domain.iml" filepath="$PROJECT_DIR$/cross-domain/cross-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cross-domain2/cross-domain2.iml" filepath="$PROJECT_DIR$/cross-domain2/cross-domain2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_case/day17_case.iml" filepath="$PROJECT_DIR$/day17_case/day17_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day_01_mybatis/day_01_mybatis.iml" filepath="$PROJECT_DIR$/day_01_mybatis/day_01_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbox_demo/dubbox_demo.iml" filepath="$PROJECT_DIR$/dubbox_demo/dubbox_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbox_web/dubbox_web.iml" filepath="$PROJECT_DIR$/dubbox_web/dubbox_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaScript/javaScript.iml" filepath="$PROJECT_DIR$/javaScript/javaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbcTest/jdbcTest.iml" filepath="$PROJECT_DIR$/jdbcTest/jdbcTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbcTest2/jdbcTest2.iml" filepath="$PROJECT_DIR$/jdbcTest2/jdbcTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myJdbcTemplate/myJdbcTemplate.iml" filepath="$PROJECT_DIR$/myJdbcTemplate/myJdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myServlet/myServlet.iml" filepath="$PROJECT_DIR$/myServlet/myServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myday20_jquery/myday20_jquery.iml" filepath="$PROJECT_DIR$/myday20_jquery/myday20_jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylogin/mylogin.iml" filepath="$PROJECT_DIR$/mylogin/mylogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_dome/spring_dome.iml" filepath="$PROJECT_DIR$/spring_dome/spring_dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_dome02/spring_dome02.iml" filepath="$PROJECT_DIR$/spring_dome02/spring_dome02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_dome/springmvc_dome.iml" filepath="$PROJECT_DIR$/springmvc_dome/springmvc_dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_fileserver/springmvc_fileserver.iml" filepath="$PROJECT_DIR$/springmvc_fileserver/springmvc_fileserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_test/ssm_test.iml" filepath="$PROJECT_DIR$/ssm_test/ssm_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vue-study/vue-study.iml" filepath="$PROJECT_DIR$/vue-study/vue-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day18_case/web_day18_case.iml" filepath="$PROJECT_DIR$/web_day18_case/web_day18_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day25_district/web_day25_district.iml" filepath="$PROJECT_DIR$/web_day25_district/web_day25_district.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_test2/web_test2.iml" filepath="$PROJECT_DIR$/web_test2/web_test2.iml" />
+    </modules>
+  </component>
+</project>

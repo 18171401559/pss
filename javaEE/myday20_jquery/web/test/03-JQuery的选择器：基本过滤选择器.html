@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script  src="../js/jquery-3.3.1.min.js"></script>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<script>
+
+			$(function () {
+                // <input type="button" id="but1" value="选择ID为three的第一个子DIV元素"/>
+				$("#but1").click(function () {
+					$("#three > div:first").css("backgroundColor","pink");
+                });
+                // <input type="button" id="but2" value="选择ID为three的最后一个子div元素"/>
+                $("#but2").click(function () {
+                    $("#three > div:last").css("backgroundColor","pink");
+                });
+                // <input type="button" id="but3" value="选择所有div中的奇数div"/>
+                $("#but3").click(function () {
+                    $("div:odd").css("backgroundColor","pink");
+                });
+                // <input type="button" id="but4" value="选择所有div中的偶数div"/>
+                $("#but4").click(function () {
+                    $("div:even").css("backgroundColor","pink");
+                });
+                // <input type="button" id="but5" value="选择ID为three的第二个div元素"/>
+                $("#but5").click(function () {
+                    $("#three > div:eq(1)").css("backgroundColor","pink");
+                });
+            });
+
+		</script>
+
+	</head>
+	<body>
+		<input type="button" id="but1" value="选择ID为three的第一个子DIV元素"/>
+		<input type="button" id="but2" value="选择ID为three的最后一个子div元素"/>
+		<input type="button" id="but3" value="选择所有div中的奇数div"/>
+		<input type="button" id="but4" value="选择所有div中的偶数div"/>
+		<input type="button" id="but5" value="选择ID为three的第二个div元素"/>
+		<hr/>
+		
+		<div id="one">
+			<div class="mini">
+				1111
+			</div>
+		</div>
+		<div id="two">
+			<div class="mini">
+				222
+			</div>
+			<div class="mini">
+				333
+			</div>
+		</div>
+		<div id="three">
+			<div class="mini">
+				444
+			</div>
+			<div class="mini">
+				555
+			</div>
+			<div class="mini">
+				666
+			</div>
+		</div>
+		<div id="four">
+			<div class="mini">
+				777
+			</div>
+			<div class="mini">
+				888
+			</div>
+			<div class="mini">
+				999
+			</div>
+			<div class="mini">
+				000
+			</div>
+		</div>
+		<span id="five">
+			<div class="mini">
+				1010
+			</div>
+			
+		</span>
+	</body>
+</html>

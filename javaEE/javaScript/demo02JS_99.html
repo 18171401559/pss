@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>99乘法表</title>
+    <style>
+        td {
+            border: red 1px solid;
+            text-align: center;
+            width: 150px;
+            height: 40px;
+            background-color: red;
+            color: black;
+        }
+
+    </style>
+    <script>
+
+        var i = 0;
+
+        function beijing() {
+            var rows_elements = document.getElementsByClassName("row");
+            rows_elements[i].setAttribute("style", " background-color: yellow")
+            i++;
+            //setTimeout("beijing()",1000)
+        }
+
+        document.write("<table align='center'>");
+        for (var a = 1; a <= 9; a++) {
+            document.write("<br>");
+            document.write("<tr class='row'  onclick='beijing()'>");
+            for (var b = 1; b <= a; b++) {
+                document.write("<td>");
+                document.write(a + "*" + b + "=" + (a * b));
+                document.write("</td>");
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>");
+    </script>
+    <!--<script src="../web/js/a.js"></script>-->
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>$Title$</title>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script>
+        $(function () {
+            $.getJSON('http://localhost:8081/hello?callback=?', function (data) {
+                alert(data)
+            })
+        })
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>$Title$</title>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script>
+      $(function () {
+          $.get('http://localhost:8081/hello',function (data) {
+              alert(data);
+          },'json')
+      })
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

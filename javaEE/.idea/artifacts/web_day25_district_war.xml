@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web_day25_district:war">
+    <output-path>$PROJECT_DIR$/web_day25_district/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>web_day25_district</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="web_day25_district-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="web_day25_district:war exploded" />
+    </root>
+  </artifact>
+</component>

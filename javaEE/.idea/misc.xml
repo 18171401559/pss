@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/Desktop/dev-test" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbox_demo" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbox_web" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_dome" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_fileserver" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm_test" />
+    <file type="web" url="file://$PROJECT_DIR$/web_day25_district" />
+    <file type="web" url="file://$PROJECT_DIR$/web_test2" />
+    <file type="web" url="file://G:/个人学习资料/2018JavaWeb/day26_综合案例2/代码/travel" />
+    <file type="web" url="file://G:/个人学习资料/2018JavaWeb/day28_综合案例4/代码/travel" />
+    <file type="web" url="file://G:/个人学习资料/new_ssm/SpringMVC课件/SpringMVC-03/SpringMVC-03/代码/ssm" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day_01_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_dome/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_dome02/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_dome/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_fileserver/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbox_web/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbox_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_test/pom.xml" />
+        <option value="$PROJECT_DIR$/myJdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/web_test2/pom.xml" />
+        <option value="$USER_HOME$/Desktop/dev-test/pom.xml" />
+        <option value="$PROJECT_DIR$/web_day25_district/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="true" project-jdk-name="9" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

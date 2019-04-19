@@ -1,0 +1,56 @@
+2018-09-11 16:28:02,977 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-11 16:28:03,064 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:28:03,064 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:28:03,064 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:28:03,064 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:28:03,149 172    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-11 16:28:03,344 367    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 540159270.
+2018-09-11 16:28:03,344 367    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@20322d26]
+2018-09-11 16:28:03,345 368    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: select * from user 
+2018-09-11 16:28:03,368 391    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-09-11 16:28:03,387 410    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 6
+2018-09-11 16:28:03,390 413    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@20322d26]
+2018-09-11 16:28:03,391 414    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@20322d26]
+2018-09-11 16:28:03,391 414    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 540159270 to pool.
+2018-09-11 16:49:10,831 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-11 16:49:10,927 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:49:10,927 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:49:10,927 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:49:10,927 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-11 16:49:10,959 128    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-11 16:49:11,152 321    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 684874119.
+2018-09-11 16:49:11,152 321    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@28d25987]
+2018-09-11 16:49:11,154 323    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: select * from user 
+2018-09-11 16:49:11,177 346    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-09-11 16:49:11,202 371    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 6
+2018-09-11 16:49:11,205 374    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@28d25987]
+2018-09-11 16:49:11,205 374    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@28d25987]
+2018-09-11 16:49:11,206 375    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 684874119 to pool.
+2018-09-12 19:23:34,030 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-12 19:23:34,117 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:34,117 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:34,117 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:34,117 87     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:34,185 155    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-12 19:23:34,360 330    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 2114650936.
+2018-09-12 19:23:34,360 330    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e0b0338]
+2018-09-12 19:23:34,360 330    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: select * from user; 
+2018-09-12 19:23:34,381 351    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-09-12 19:23:34,401 371    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 7
+2018-09-12 19:23:34,406 376    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e0b0338]
+2018-09-12 19:23:34,406 376    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e0b0338]
+2018-09-12 19:23:34,406 376    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 2114650936 to pool.
+2018-09-12 19:23:48,368 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-12 19:23:48,468 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:48,468 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:48,468 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:48,468 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-12 19:23:48,550 182    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-12 19:23:48,719 351    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 2114650936.
+2018-09-12 19:23:48,719 351    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e0b0338]
+2018-09-12 19:23:48,719 351    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==>  Preparing: select * from user; 
+2018-09-12 19:23:48,744 376    [           main] DEBUG om.itheima.dao.UserDao.findAll  - ==> Parameters: 
+2018-09-12 19:23:48,766 398    [           main] DEBUG om.itheima.dao.UserDao.findAll  - <==      Total: 7
+2018-09-12 19:23:48,768 400    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e0b0338]
+2018-09-12 19:23:48,768 400    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e0b0338]
+2018-09-12 19:23:48,769 401    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 2114650936 to pool.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function add() {
+            var id = document.getElementById("num").value;
+            var name = document.getElementById("name").value;
+            var age = document.getElementById("age").value;
+            var money = document.getElementById("money").value;
+            var tab = document.getElementById("tab");
+            tab.innerHTML += "<tr><td>" + id + "</td><td>" + name + "</td><td>" + age + "</td><td>" + money + "</td><td onclick='del(this)'>删除</td></tr>"
+        }
+
+        function del(d) {
+            d.parentNode.parentNode.removeChild(d.parentNode);
+        }
+    </script>
+</head>
+<body>
+编号: <input id="num">
+姓名:<input id="name">
+年龄:<input id="age">
+存款:<input id="money">
+<a href="javascript:void(0)" onclick="add()">添加</a>
+<table id="tab">
+    <tr>
+        <td>编号</td>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>存款</td>
+        <td>操作</td>
+    </tr>
+</table>
+</body>
+</html>

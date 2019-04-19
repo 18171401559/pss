@@ -1,0 +1,8 @@
+com\itheima\controller\ItemController.class
+com\itheima\service\ItemService.class
+com\itheima\service\impl\ItemServiceImpl.class
+com\itheima\dao\ItemDao.class
+com\itheima\config\JdbcConfig.class
+com\itheima\config\SpringConfig.class
+com\itheima\config\SpringMvcConfig.class
+com\itheima\domain\Items.class

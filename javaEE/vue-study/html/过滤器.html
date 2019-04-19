@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../lib/vue.min.js"></script>
+</head>
+
+<body>
+<div id="app">
+    <p>{{ msg | msgFormat}}</p>
+</div>
+
+<script>
+    Vue.filter('msgFormat', function (msg) {
+        return msg.replace(/上海/g, '北京');
+    })
+
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            msg: '上海自来水来自海上，上海热干面来自武汉'
+        }
+    })
+</script>
+</body>
+</html>

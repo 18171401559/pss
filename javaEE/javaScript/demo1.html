@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        function add() {
+            var id = $("#num").val();
+            var name = $("#name").val();
+            var age = $("#age").val();
+            var money = $("#money").val();
+            var html = "<tr><td>" + id + "</td><td>" + name + "</td><td>" + age + "</td><td>" + money + "</td><td><a href='javascript:void(0)' onclick='del(this)'>删除</a></td></tr>"
+            $("#tab").append(html);
+        }
+
+        function del(d) {
+            $(d).parent().parent().remove();
+        }
+    </script>
+</head>
+<body>
+编号: <input id="num">
+姓名:<input id="name">
+年龄:<input id="age">
+存款:<input id="money">
+<a href="javascript:void(0)" onclick="add()">添加</a>
+<table id="tab">
+    <tr>
+        <td>编号</td>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>存款</td>
+        <td>操作</td>
+    </tr>
+</table>
+</body>
+</html>

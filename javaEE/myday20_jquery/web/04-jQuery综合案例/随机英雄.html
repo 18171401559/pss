@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>随机英雄</title>
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script language='javascript' type='text/javascript'>
+        /*
+            分析：
+                1. 给开始按钮绑定单击事件
+                    1.1 定义循环定时器
+                    1.2 切换小相框的src属性
+                        * 定义数组，存放图片资源路径
+                        * 生成随机数。数组索引
+
+                2. 给结束按钮绑定单击事件
+                    1.1 停止定时器
+                    1.2 给大相框设置src属性
+
+         */
+        var arr = [];
+        for (var i = 1; i < 109; i++) {
+            arr.push("../imgs/" + i + "_Web_0.jpg");
+        }
+
+        var startId;//开始定时器的id
+        var index;//随机角标
+        $(function () {
+            //处理按钮是否可以使用的效果
+            $("#startID").prop("disabled", false);
+            $("#stopID").prop("disabled", true);
+
+            //1. 给开始按钮绑定单击事件
+            $("#startID").click(function () {
+                // 1.1 定义循环定时器 20毫秒执行一次
+                startId = setInterval(function () {
+                    //处理按钮是否可以使用的效果
+                    $("#startID").prop("disabled", true);
+                    $("#stopID").prop("disabled", false);
+                    //1.2生成随机角标 0-6
+                    index = Math.floor(Math.random() * 109);//0.000--0.999 --> * 109 --> 0.0-----109.9999
+                    //1.3设置小相框的src属性
+                    $("#img1ID").prop("src", arr[index]);
+
+                }, 25);
+            });
+
+            //2. 给结束按钮绑定单击事件
+            $("#stopID").click(function () {
+                //处理按钮是否可以使用的效果
+                $("#startID").prop("disabled", false);
+                $("#stopID").prop("disabled", true);
+                // 1.1 停止定时器
+                clearInterval(startId);
+                // 1.2 给大相框设置src属性
+                $("#img2ID").prop("src", arr[index]).hide();
+                //显示1秒之后
+                $("#img2ID").show(500);
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<!-- 小像框 -->
+<div>
+    <img id="img1ID" src="../imgs/22_Web_0.jpg" style="width:200px;height:200px;border: 1px solid yellow"/>
+</div>
+
+<!-- 大像框 -->
+<div>
+    <img id="img2ID" src="../imgs/22_Web_0.jpg" width="400px" height="600" style="border: 1px solid yellow;position:absolute;left:500px;top:10px"/>
+</div>
+
+<!-- 开始按钮 -->
+<input
+        id="startID"
+        type="button"
+        value="开始选择英雄"
+        style="width:100px;height:50px;font-size:10px">
+
+<!-- 停止按钮 -->
+<input
+        id="stopID"
+        type="button"
+        value="停止选择英雄"
+        style="width:100px;height:50px;font-size:10px;">
+</body>
+</html>

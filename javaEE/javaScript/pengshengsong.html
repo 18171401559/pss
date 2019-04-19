@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态表格</title>
+    <script type="text/javascript">
+        function add() {
+            //第一步：获取输入框中的内容
+            var id = document.getElementById("id").value;
+            var name = document.getElementById("name").value;
+            var age = document.getElementById("age").value;
+            var money = document.getElementById("money").value;
+            //获得表的document对象
+            var table = document.getElementById("tab");
+            var html = "<tr><td>" + id + "</td><td>" + name + "</td><td>" + age + "</td><td>" + money + "</td><td><input type='button' onclick='del(this)' value='删除'/></td></tr>";
+            table.innerHTML += html;
+        }
+
+        function del(obj) {
+            //obj是指a标签
+            //先获取tr,parentNode获取父节点
+            var tr = obj.parentNode.parentNode;
+            var table = tr.parentNode;
+            table.removeChild(tr);
+        }
+    </script>
+</head>
+<body>
+
+编号:<input id="id">
+姓名：<input id="name">
+年龄：<input id="age">
+存款:<input id="money">
+
+<a href="javascript:void(0)" onclick="add()">添加</a>
+<table id="tab">
+    <tr>
+        <td>编号</td>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>存款</td>
+        <td>操作</td>
+    </tr>
+</table>
+</body>
+</html>
